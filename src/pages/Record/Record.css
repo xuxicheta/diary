@@ -1,0 +1,33 @@
+.Record .record-container {
+  display: flex;
+  justify-content: stretch;
+}
+
+.Record .key {
+  width: 150px;
+  flex: none;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.Record .text {
+  padding: 5px;
+  width: 100%;
+}
+
+.Record .buttons {
+  width: 60px;
+  flex: none;
+  align-self: center;
+  display: flex;
+  gap: 4px;
+  /*transform: translateY(2px);*/
+}
+
+.Record:not(:last-child):after {
+  content: '';
+  display: block;
+  height: 1px;
+  background: #f0f0f0;
+  border-bottom: 1px solid #e0e0e0;
+}

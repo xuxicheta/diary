@@ -1,0 +1,56 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+#App {
+  max-width: 1200px;
+  margin: auto;
+  box-shadow: 0px 0px 2px lightgray;
+  height: 100vh;
+}
+
+h3 {
+  margin: 0;
+}
+
+.app-nav {
+  display: flex;
+  justify-content: left;
+  gap: 20px;
+  padding: 10px;
+  background: darkblue;
+  color: white;
+}
+
+.app-nav a {
+  color: white;
+}
+
+.app-nav a:visited {
+  color: lightgray;
+}
+
+.app-outlet {
+  padding: 10px;
+}
+
+.button1 {
+  padding: 8px;
+  background: blue;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+.block {
+  display: block;
+}
+
+.textarea {
+  min-width: 400px;
+  min-height: 80px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}

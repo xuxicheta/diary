@@ -1,0 +1,21 @@
+.button {
+  background: unset;
+  cursor: pointer;
+  stroke: black;
+  padding: 4px;
+  width: 24px;
+  height: 24px;
+  border: 1px solid transparent;
+}
+
+.delete:hover {
+  stroke: red;
+  border: 1px solid red;
+  border-radius: 3px;
+}
+
+.edit:hover {
+  stroke: blue;
+  border: 1px solid blue;
+  border-radius: 3px;
+}
